@@ -23,7 +23,6 @@ kramdown:
 collections:
   jobs:
     output: true
-    name: bar
     layout: page
 
 # Sass settings
