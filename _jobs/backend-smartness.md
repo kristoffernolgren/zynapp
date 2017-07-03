@@ -1,5 +1,4 @@
 ---
-title: Backend Smartness
 name: Backend Smartness
 ---
 We are looking for backend developers who can perform machine learning technologies such as understanding texts, recognising content of an image and identify persons in photos.
