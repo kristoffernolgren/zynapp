@@ -30,9 +30,3 @@ Our digital life is all over the place. On your camera, your phone, tablet, comp
 -   You can work under a reasonable amount of stress. Stay calm and effective during working peaks.
 -   You care about the users, seeing them as customers and see the full picture from the platform and 3rd parties to the user experience.
 -   You do it! Not only talk about it.
-
-How to apply
-
-……..
-
-We strongly believe that diversity of experience, perspective and background will lead to a better workplace for our employees and a better product for our users.
