@@ -23,7 +23,15 @@ kramdown:
 collections:
   jobs:
     output: true
-    layout: jobs
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "jobs"
+    values:
+      layout: "jobs"
+
 
 # Sass settings
 sass:

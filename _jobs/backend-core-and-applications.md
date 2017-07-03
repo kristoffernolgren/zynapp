@@ -25,8 +25,6 @@ Our digital life is all over the place. On your camera, your phone, tablet, comp
 
 ## Who you are
 
-## &nbsp;
-
 * You already today call yourself a backend developer. You have great experiences in using SQL and transfer big amount of data. Following the industry and creating solutions is not only a work issue, it's a hobby for you as well.
 * You have a university degree in computer science or have gained similar experiences in your working life. You shall be able to create and implement innovative solutions not done before.
 * You can progress your work both in teams and individually. You share your experience with others. You are agile.
