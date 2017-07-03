@@ -1,6 +1,15 @@
 ---
 layout: default
-header: Test
 ---
-
-<h1 class="editable">Cool beans!</h1>
+<ul class="jobs">
+  {% for job in site.jobs %}
+    <li>
+      <!--img src="{{ member.profile_photo_path }}" alt="{{ member.name }}"-->
+      <p>
+        <a href="{{ job.url }}">
+          {{ job.name }} - <strong>{{ jobs.position }}</strong>
+        </a>
+      </p>
+    </li>
+  {% endfor %}
+</ul>
