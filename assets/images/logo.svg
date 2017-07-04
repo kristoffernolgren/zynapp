@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: page.lang | default: 'en' }}">
-
-  {% include head.html %}
-
-  <body>
-  	<nav>
-  	{% include /assets/images/logo.svg %}
 
 <svg width="78px" height="56px" viewBox="0 0 78 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="Page-1">
@@ -20,11 +12,3 @@
         </g>
     </g>
 </svg>
-  	</nav>
-    <main class="main" aria-label="Content">
-      {{ content }}
-    </main>
-
-  </body>
-
-</html>
