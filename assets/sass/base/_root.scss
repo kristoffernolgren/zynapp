@@ -5,7 +5,6 @@ html {
   box-sizing: border-box;
   font-family: CircularStd;
   font-size: 24px;
-  line-height: 35px;
 }
 
 footer {
@@ -13,15 +12,15 @@ footer {
 	color: white;
 }
 main, nav, footer {
-	max-width: 832px;
+	max-width: 830px;
 	margin: 0 auto;
 }
 
 nav {
 	width: 303px;
-	margin: 14px auto 72px;
+	margin: 14px auto 53px;
 	.text {
-		margin: 0 20px;
+		margin: 0 18px;
 		position: relative;
 		bottom: 30px;
 		text-decoration: none;
@@ -32,12 +31,13 @@ nav {
 
 h1 {
 	font-size: 1em;
-	margin: 0 0 10px
+	margin: 0 0 8px
 }
 
 p {
 	font-size: 22px;
-	margin-bottom: 20px;
+	margin: 0 0 20px;
+	line-height: 30px;
 }
 
 
