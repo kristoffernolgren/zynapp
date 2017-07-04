@@ -3,16 +3,33 @@
 
   {% include head.html %}
 
-  <body>
-  	<nav>
-  	<a href="http://zynapp.com/aboutus.html">About us</a>
-  	<a href="http://zynapp.com/">{% include /vectors/logo.svg %}</a>
-  	<a href="/">Careers</a>
-  	</nav>
-    <main class="main" aria-label="Content">
-      {{ content }}
-    </main>
-
-  </body>
+	<body>
+		<nav>
+		<a href="http://zynapp.com/aboutus.html">About us</a>
+		<a href="http://zynapp.com/">{% include /vectors/logo.svg %}</a>
+		<a href="/">Careers</a>
+		</nav>
+	<main class="main" aria-label="Content">{{ content }}</main>
+	<footer>
+		<div>
+			<p>Zynapp AB<br />
+			Drottninggatan 32<br />
+			652 25 Karlstad<br />
+			Sweden</p>
+		</div>
+		<div>
+			<p>For general company inquiries</p>
+			<a href="mailto:info@zynapp.com">info@zynapp.com</a>
+		</div>
+		<div>
+			<p>For jobs</p>
+			<a href="mailto:jobs@zynapp.com">jobs@zynapp.com</a>
+		</div>
+		<div>
+			<p>For support</p>
+			<a href="mailto:info@zynapp.com">support@zynapp.com</a>
+		</div>
+	</footer>
+	</body>
 
 </html>
