@@ -29,9 +29,14 @@ nav {
 	}
 }
 
-h1, h2 {
+h1 {
 	font-size: 1em;
 	margin: 0 0 13px
+}
+
+h2{
+	font-size: 1em
+	margin: 0
 }
 
 p {
@@ -49,21 +54,20 @@ p {
     padding-bottom: 25px;
     font-weight: normal;
 }
-ul{
+.jobs{
 	padding-left: 0;
 	margin-top: 0;
-}
-
-li{
-	list-style: none;
-	a {
-		display: block;
-		text-decoration: none;
-		color: #d53668;
-		font-weight: bold;
-		font-size: 26px;
-		padding: 13px 0;
-	    border-bottom: 3px solid black;
+	li{
+		list-style: none;
+		a {
+			display: block;
+			text-decoration: none;
+			color: #d53668;
+			font-weight: bold;
+			font-size: 26px;
+			padding: 13px 0;
+		    border-bottom: 3px solid black;
+		}
 	}
 }
 
