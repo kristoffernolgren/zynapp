@@ -5,7 +5,7 @@ We are looking for a thoughtful, well-grounded senior product designer with an e
 
 Your previous experience is broad as a senior engineer and applications developer with special interest in the expanding field of machine learning but where your role within our team will be to contribute more as a senior product designer very close to the users rather than writing that brillant backend code. You will join a senior professional team that understands the virtues of being both open minded and focused while strongly comitted to delivering maximum value for the users. 
 
-**Who we are**
+## Who we are
 
 Zynapp is an exciting Swedish mobile first start-up with high ambitions. We will, with our offerings, target the global world market of smartphones users and beyond. We want to grow fast. We have currently approximately 20 employees and full-time consultants in Karlstad, Stockholm and Gothenburg
 
