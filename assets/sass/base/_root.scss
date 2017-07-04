@@ -44,7 +44,7 @@ p {
 .listHeader {
     font-size: 30px;
     color: #52b9b4;
-    margin-top: 66px;
+    margin: 66px 0 0;
     border-bottom: 3px solid black;
     padding-bottom: 25px;
     font-weight: normal;
@@ -54,15 +54,14 @@ ul{
 }
 
 li{
-	list-decoration: none;
+	list-style: none;
 	a {
 		display: block;
 		text-decoration: none;
 		color: #d53668;
 		font-weight: bold;
 		font-size: 26px;
-		margin-top: 10px;
-		padding-bottom: 10px;
+		padding: 13px 0;
 	    border-bottom: 3px solid black;
 	}
 }
