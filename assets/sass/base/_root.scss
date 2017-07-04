@@ -16,6 +16,10 @@ nav {
 	margin: 14px auto 72px
 }
 
+@font-face {font-family:CircularStd-Book;src: url(/assets/fonts/CircularStd-Book.otf);}
+@font-face {font-family:CircularStd-Black;src: url(/assets/fonts/CircularStd-Black.otf);}
+
+
 /**
  * Make all elements from the DOM inherit from the parent box-sizing
  * Since `*` has a specificity of 0, it does not override the `html` value
