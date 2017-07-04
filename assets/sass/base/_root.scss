@@ -5,6 +5,11 @@ html {
   box-sizing: border-box;
 }
 
+footer {
+	background: #36314B;
+	color: white;
+}
+
 /**
  * Make all elements from the DOM inherit from the parent box-sizing
  * Since `*` has a specificity of 0, it does not override the `html` value
@@ -13,4 +18,4 @@ html {
  */
 *, ::before, ::after {
   box-sizing: inherit;
-} 
+}
