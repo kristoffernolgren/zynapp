@@ -5,7 +5,7 @@ html {
   box-sizing: border-box;
   font-family: CircularStd;
   font-size: 24px;
-  line-height: 30px;
+  line-height: 35px;
 }
 
 footer {
@@ -29,6 +29,17 @@ nav {
 		font-size: 18px;
 	}
 }
+
+h1 {
+	font-size: 1em
+	margin: 0 0 10px
+}
+
+p {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
 
 @font-face {
 	font-family:CircularStd;
