@@ -49,9 +49,12 @@ p {
     padding-bottom: 25px;
     font-weight: normal;
 }
+ul{
+	padding-left: 0
+}
 
 li{
-	text-decoration: none;
+	list-decoration: none;
 	a {
 		display: block;
 		text-decoration: none;
