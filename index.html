@@ -6,8 +6,7 @@ layout: default
     <li>
       <!--img src="{{ member.profile_photo_path }}" alt="{{ member.name }}"-->
       <p>
-        <a href="{{ job.url }}">
-          {{ job.offsite }}
+        <a href="{% if job.offsite %}}{{job.offsite}}{{% else %}} {{ job.url }}{% endif %}">
           {{ job.name }}
         </a>
       </p>
