@@ -42,9 +42,12 @@ p {
 
 
 .listHeader {
-	font-size: 30px;
-	color: #52b9b4;
-	font-weight: normal;
+    font-size: 30px;
+    color: #52b9b4;
+    margin-top: 66px;
+    border-bottom: 3px solid black;
+    padding-bottom: 25px;
+    font-weight: normal;
 }
 
 @font-face {
