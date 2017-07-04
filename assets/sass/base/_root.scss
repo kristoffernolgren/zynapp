@@ -3,7 +3,7 @@
  */
 html {
   box-sizing: border-box;
-  font-family: CircularStd-Book;
+  font-family: CircularStd;
 }
 
 footer {
@@ -16,8 +16,15 @@ nav {
 	margin: 14px auto 72px
 }
 
-@font-face {font-family:CircularStd-Book;src: url(/assets/fonts/CircularStd-Book.otf);}
-@font-face {font-family:CircularStd-Black;src: url(/assets/fonts/CircularStd-Black.otf);}
+@font-face {
+	font-family:CircularStd;
+	src: url(/assets/fonts/CircularStd-Book.otf);
+}
+@font-face {
+	font-family:CircularStd;
+	src: url(/assets/fonts/CircularStd-Black.otf);
+	font-weight: bold;
+}
 
 
 /**
