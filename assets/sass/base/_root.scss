@@ -10,6 +10,10 @@ footer {
 	background: #36314B;
 	color: white;
 }
+main, nav, footer {
+	max-width: 832px;
+	margin: 0 auto;
+}
 
 nav {
 	width: 303px;
