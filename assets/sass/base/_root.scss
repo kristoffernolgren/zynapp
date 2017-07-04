@@ -50,6 +50,16 @@ p {
     font-weight: normal;
 }
 
+li a {
+	text-decoration: none;
+	color: #d53668;
+	font-weight: bold;
+	font-size: 26px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+    border-bottom: 3px solid black;
+}
+
 @font-face {
 	font-family:CircularStd;
 	src: url(/assets/fonts/CircularStd-Book.otf);
