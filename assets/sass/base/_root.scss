@@ -2,7 +2,7 @@ html {
 	box-sizing: border-box;
 	font-family: CircularStd;
 	font-size: 22px;
-	background: url(/assets/images/bg.png)
+	background: url(/assets/images/bg.png);
 }
 
 footer {
@@ -104,7 +104,7 @@ p {
 			color: #d53668;
 			font-weight: bold;
 			font-size: 26px;
-			padding: 13px 0 13px 28px;;
+			padding: 13px 0 13px 28px;
 			border-bottom: 3px solid black;
 		}
 	}
@@ -125,7 +125,7 @@ p {
 
 		height: auto;
 		.wrapper .footerLogo a{
-			float: none
+			float: none;
 		 }
 		.wrapper div{
 			float: none;
