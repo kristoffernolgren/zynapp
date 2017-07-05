@@ -1,8 +1,8 @@
 html {
-  box-sizing: border-box;
-  font-family: CircularStd;
-  font-size: 22px;
-  background: url(/assets/images/bg.png)
+	box-sizing: border-box;
+	font-family: CircularStd;
+	font-size: 22px;
+	background: url(/assets/images/bg.png)
 }
 
 footer {
@@ -95,8 +95,8 @@ p {
 	margin-top: 0;
 	li{
 		background: url(/assets/images/arrow.svg) no-repeat;
-	    background-size: 17px;
-	    background-position: 0 19px;
+			background-size: 17px;
+			background-position: 0 19px;
 		list-style: none;
 		a {
 			display: block;
@@ -121,16 +121,16 @@ p {
 }
 
 @media (max-width: 960px) {
-  footer {
+	footer {
 
-  	height: auto;
-  	.wrapper .footerLogo a{
-  	 	float: none
-  	 }
-  	.wrapper div{
-  		float: none;
-  	}
-  }
+		height: auto;
+		.wrapper .footerLogo a{
+			float: none
+		 }
+		.wrapper div{
+			float: none;
+		}
+	}
 }
 
 
@@ -141,5 +141,5 @@ p {
  * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
  */
 *, ::before, ::after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
