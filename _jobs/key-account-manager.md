@@ -1,7 +1,7 @@
 ---
 name: Key account Manager
 ---
-En mycket viktig del i vår Go-to market strategi är att nå marknaden via partnersamarbeten, både på nationell och global nivå. Som Key Account ansvarar du för att utveckla hela affären tillsammans med våra strategiska samarbetspartners.
+This is a very importent and crucial part of Zynapp. Our go to market strategy is to reach the market by strategic customers, both in the nordic and global. As our Key Account you are responsible for developing the business of our most valueble business partners and to understand the challenge of their business strategy.
 
 ## Who we are
 
@@ -11,19 +11,20 @@ Zynapp is an exciting Swedish mobile first start-up with high ambitions. We will
 
 Our digital life is all over the place. On your camera, your phone, tablet, computer, memory cards, cloud services. And in a million apps. What if it was always at your fingertips? Our mission is to put you back in control of your digital life. We believe that finding, viewing and organizing your digital content can be done in a smarter and more visual way. We're building what can be conceptualized as an extension of our own brain, utilizing the convenience of smart phones and their unique ability to gather your personal data regardless of type and source. While connecting your data with image and text classification and add deep machine learning, this product is scalable, helpful, intuitive and social, all at the same time.
 
-## What you'll do:
+## What you'll do
 
--   Du ansvarar för relationsskapande affärer med våra strategiska kunder och partners.
--   Du är den naturliga länken mellan oss och samarbetande part och ansvarar för att gemensam roadmap tas fram, förankras, genomförs och utvärderas.
--   Du driver och och identifierar nya affärsmöjligheter och utvärderar hur partnersamarbetet kan vara en del av eller bidra i andra affärsmässiga Eco-system för andra partners, sektorer mm. 
--   Du ansvarar för att relevant analys- och rapportering mm mellan parterna.
+-   You vill be responsible to create and maintain business relationsships with our strategic customers and partners.
+-   You are the natural link beetween us and our partner and will be responsible for the roadmap and evaluate and mesure common achivements.
+-   You are responsible for identifying and implementing new business opportunities and evaluating how partner cooperation can be a part of or contribute to other business ecosystems for other partners, sectors, etc.
+-   You will get support of the whole team and work closly with all internal stakeholders
+-   You will be resonsible for the KPI's and the analyze behind them
 
 ## Who you are
 
--   Du har gedigen erfarenhet av att driva långsiktiga affärer samtidigt som du har förmåga att få avslut i dina affärer tillsammans med kunder av strategiskt värde.
--   En entreprenör som har en ambition och fallenhet för att utveckla befintliga kunder samt är intresserad av att skapa nya affärsrelationer
--   Teamspelare och tycker att arbete i team är en självklarhet och genom att vara kommunikativ, strukturerad, drivande, prestigelös skapar du goda förutsättningar att driva affärerna på en professionell nivå.
--   Resultatfokuserad, engagerad, självgående och har ett starkt intresse för nya möjligheter som digitaliseringen medför.
--   Vi ser att du gärna har minst 5 års erfarenhet minst av försäljning B2B eller liknande sammanhang.
--   Relevant akademisk examen
--   Behärskar Engelska och Svenska språket flytande i tal och skrift.
+-   You have solid experience in running long-term business while at the same time you have the ability to complete business deals with strategic value customers. 
+-   An entrepreneur who has the ambition and inclination to develop existing customers and is interested in creating new business relationships
+-   You are a team player and for you is teamwork a matter of course and by being communicative, structured, driving, prestigious, you create good opportunities to run the business at a professional level.
+-   Performance, committed, self-propelled and strongly interested in new opportunities that digitalization entails.
+-   We see that you would like to have at least 5 years of experience at least from sales B2B or similar contexts.
+-   Relevant academic degree.
+-   English and Swedish languages ​​fluent in spoken and written terms
