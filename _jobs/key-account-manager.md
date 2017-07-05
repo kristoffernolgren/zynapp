@@ -1,5 +1,5 @@
 ---
-name: Key account Manager
+name: Key Account Manager
 ---
 This is a very importent and crucial part of Zynapp. Our go to market strategy is to reach the market by strategic customers, both in the nordic and global. As our Key Account you are responsible for developing the business of our most valueble business partners and to understand the challenge of their business strategy.
 
