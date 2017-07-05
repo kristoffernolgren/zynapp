@@ -11,6 +11,7 @@ footer {
 	font-size: 18px;
 	height: 420px;
 	padding-top: 130px;
+	margin-top: 60px;
 	.wrapper{
 		max-width: 1000px;
 		padding: 0 20px
@@ -33,6 +34,9 @@ footer {
 				float: left;
 				width: 160px;
 			}
+		}
+		.inquiries{
+			width: 214px;
 		}
 		.adress {
 			width: 175px;
@@ -71,10 +75,6 @@ h2{
 p {
 	margin: 0 0 20px;
 	line-height: 30px;
-}
-
-footer{
-	margin-top: 30px
 }
 
 .careersHeader {
