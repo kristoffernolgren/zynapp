@@ -121,7 +121,10 @@ p {
   footer {
 
   	height: auto;
-  	.wrapper div, .footerLogo a{
+  	.wrapper .footerLogo a{
+  	 	float: none
+  	 }
+  	.wrapper div{
   		float: none;
   	}
   }
