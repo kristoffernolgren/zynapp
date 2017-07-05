@@ -14,6 +14,13 @@ footer {
     .wrapper{
 		max-width: 960px;
 		margin: 0 auto;
+		a {
+			color: white;
+			text-decoration: none;
+		}
+		.label {
+			font-size: 14px;
+		}
     	div {
 	    	float: left;
 	    	width: 180px;
