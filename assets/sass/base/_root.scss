@@ -9,8 +9,8 @@ footer {
 	background: #36314B;
 	color: white;
 	font-size: 18px;
-	height: 420px;
-	padding-top: 130px;
+	height: 400px;
+	padding: 130px 0 20px;
 	margin-top: 60px;
 	.wrapper{
 		max-width: 1000px;
@@ -114,6 +114,15 @@ p {
 	font-family:CircularStd;
 	src: url(/assets/fonts/CircularStd-Black.otf);
 	font-weight: bold;
+}
+
+@media (max-width: 960px) {
+  footer {
+  	height: auto;
+  	.wrapper div{
+  		float: none;
+  	}
+  }
 }
 
 
