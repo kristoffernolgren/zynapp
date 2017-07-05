@@ -10,12 +10,13 @@ footer {
 	color: white;
 }
 main, nav, footer .wrapper{
-	max-width: 830px;
+	max-width: 890px;
 	margin: 0 auto;
+	padding: 0 30px;
 }
 
 nav {
-	width: 303px;
+	width: 363px;
 	margin: 14px auto 63px;
 	.text {
 		margin: 0 18px;
