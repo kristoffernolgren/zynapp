@@ -8,10 +8,10 @@ html {
 footer {
 	background: #36314B;
 	color: white;
-    font-size: 18px;
-    height: 420px;
-    padding-top: 150px;
-    .wrapper{
+	font-size: 18px;
+	height: 420px;
+	padding-top: 130px;
+	.wrapper{
 		max-width: 960px;
 		margin: 0 auto;
 		a {
@@ -21,18 +21,22 @@ footer {
 		.label {
 			font-size: 14px;
 		}
-    	div {
-	    	float: left;
-	    	width: 180px;
-	    }
-    	.footerLogo {
-    		float: left;
-    		width: 160px;
-    	}
-    	.adress {
-    		width: 175px;
-    	}
-    }
+		div {
+			float: left;
+			width: 180px;
+			padding-top: 20px;
+		}
+		.footerLogo{
+			width: 210px;
+			a {
+				float: left;
+				width: 160px;
+			}
+		}
+		.adress {
+			width: 175px;
+		}
+	}
 }
 main, nav{
 	max-width: 890px;
@@ -77,12 +81,12 @@ footer{
 }
 
 .listHeader {
-    font-size: 30px;
-    color: #52b9b4;
-    margin: 66px 0 0;
-    border-bottom: 3px solid black;
-    padding-bottom: 25px;
-    font-weight: normal;
+	font-size: 30px;
+	color: #52b9b4;
+	margin: 66px 0 0;
+	border-bottom: 3px solid black;
+	padding-bottom: 25px;
+	font-weight: normal;
 }
 .jobs{
 	padding-left: 0;
@@ -96,7 +100,7 @@ footer{
 			font-weight: bold;
 			font-size: 26px;
 			padding: 13px 0;
-		    border-bottom: 3px solid black;
+			border-bottom: 3px solid black;
 		}
 	}
 }
