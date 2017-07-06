@@ -100,7 +100,7 @@ p {
 		list-style: none;
 	}
 }
-.jobs li a {
+.jobs li a{
 	display: block;
 	text-decoration: none;
 	color: #d53668;
@@ -122,8 +122,7 @@ p {
 }
 
 @media (max-width: 960px) {
-	footer {
-
+	footer{
 		height: auto;
 		.wrapper .footerLogo a{
 			float: none;
