@@ -5,45 +5,46 @@ html {
 	background: url(/assets/images/bg.png);
 }
 
-footer {
-	background: #36314B;
-	color: white;
-	font-size: 18px;
-	height: 360px;
-	padding: 130px 0 60px;
-	margin-top: 60px;
-	.wrapper{
-		max-width: 1000px;
-		padding: 0 20px;
-		margin: 0 auto;
-		a {
-			color: white;
-			text-decoration: none;
-		}
-		.label {
-			font-size: 14px;
-			margin-bottom: 0;
-		}
-		div {
-			float: left;
-			width: 180px;
-			padding-top: 20px;
-		}
-		.footerLogo{
-			width: 210px;
-			a {
-				float: left;
-				width: 160px;
-			}
-		}
-		.inquiries{
-			width: 214px;
-		}
-		.adress {
-			width: 175px;
-		}
-	}
+footer {
+  background: #36314B;
+  color: white;
+  font-size: 18px;
+  height: 360px;
+  padding: 130px 0 60px;
+  margin-top: 60px;
 }
+footer .wrapper {
+  max-width: 1000px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+footer .wrapper a {
+  color: white;
+  text-decoration: none;
+}
+footer .wrapper .label {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+footer .wrapper div {
+  float: left;
+  width: 180px;
+  padding-top: 20px;
+}
+footer .wrapper .footerLogo {
+  width: 210px;
+}
+footer .wrapper .footerLogo a {
+  float: left;
+  width: 160px;
+}
+footer .wrapper .inquiries {
+  width: 214px;
+}
+footer .wrapper .adress {
+  width: 175px;
+}
+
 main, nav{
 	max-width: 890px;
 	margin: 0 auto;
@@ -63,7 +64,7 @@ nav {
 	}
 }
 
-h1 {
+h1{
 	font-size: 30px;
 	margin: 0 0 13px;
 }
@@ -73,7 +74,7 @@ h2{
 	margin: 30px 0 5px;
 }
 
-p {
+p{
 	margin: 0 0 20px;
 	line-height: 30px;
 }
