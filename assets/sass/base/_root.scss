@@ -98,17 +98,18 @@ p {
 		background-size: 17px;
 		background-position: 0 19px;
 		list-style: none;
-		a {
-			display: block;
-			text-decoration: none;
-			color: #d53668;
-			font-weight: bold;
-			font-size: 26px;
-			padding: 13px 0 13px 28px;
-			border-bottom: 3px solid black;
-		}
 	}
 }
+.jobs li a {
+	display: block;
+	text-decoration: none;
+	color: #d53668;
+	font-weight: bold;
+	font-size: 26px;
+	padding: 13px 0 13px 28px;
+	border-bottom: 3px solid black;
+}
+
 
 @font-face {
 	font-family:CircularStd;
