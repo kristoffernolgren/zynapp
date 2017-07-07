@@ -1,4 +1,4 @@
 ---
 name: Release Manager
-offsite: aw
+offsite: https://www.academicwork.se/annons/release-manager-to-zynapp/14990744
 ---

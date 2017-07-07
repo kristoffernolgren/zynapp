@@ -1,4 +1,4 @@
 ---
 name: Growth Hacker
-offsite: aw
+offsite: https://www.academicwork.se/annons/growth-hacker-to-zynapp/14990741
 ---

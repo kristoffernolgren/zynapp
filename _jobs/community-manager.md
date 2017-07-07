@@ -1,4 +1,4 @@
 ---
 name: Community Manager
-offsite: aw
+offsite: https://www.academicwork.se/annons/community-manager-to-zynapp/14990697
 ---
