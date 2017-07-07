@@ -7,7 +7,7 @@ For Zynapp is personal integrity for our users extremely important. We are seein
 
 Zynapp is an exciting Swedish mobile first start-up with high ambitions. We will, with our offerings, target the global world market of smartphones users and beyond. We want to grow fast. We have currently approximately 20 employees and full-time consultants in Karlstad, Stockholm and Gothenburg
 
-#What we are building
+## What we are building
 
 Our digital life is all over the place. On your camera, your phone, tablet, computer, memory cards, cloud services. And in a million apps. What if it was always at your fingertips? Our mission is to put you back in control of your digital life. We believe that finding, viewing and organizing your digital content can be done in a smarter and more visual way. We're building what can be conceptualized as an extension of our own brain, utilizing the convenience of smart phones and their unique ability to gather your personal data regardless of type and source. While connecting your data with image and text classification and add deep machine learning, this product is scalable, helpful, intuitive and social, all at the same time.
 
