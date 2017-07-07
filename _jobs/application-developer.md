@@ -1,4 +1,4 @@
 ---
 name: Backend Core and Application Developer
-offsite: aw
+offsite: https://www.academicwork.se/annons/backend-developer-to-startup-company-zynapp/14990746
 ---
