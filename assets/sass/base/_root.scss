@@ -2,7 +2,8 @@ html {
 	box-sizing: border-box;
 	font-family: CircularStd;
 	font-size: 22px;
-	background: url(/assets/images/bg.svg);
+	background-image: url(/assets/images/bg.svg);
+	background-position: 0 10px;
 }
 .body__about{
 	background-color: #36314C;
