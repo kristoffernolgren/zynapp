@@ -19,7 +19,7 @@ html {
 }
 .profile__section__header::before{
 	counter-increment: section;
-	content: counter(section) ".";
+	content: counter(section, decimal-leading-zero) ".";
 }
 .profile__section__header{
 	margin-top: 12px;
@@ -38,7 +38,7 @@ html {
 }
 .profile__subsection__header::before{
 	counter-increment: subsection;
-	content: counter(section) "." counter(subsection);
+	content: counter(section, decimal-leading-zero) "." counter(subsection);
 }
 .profile__subsection__header{
 	margin: 12px 0;
