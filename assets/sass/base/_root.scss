@@ -38,7 +38,7 @@ html {
 }
 .profile__subsection__header::before{
 	counter-increment: subsection;
-	content: counter(subsection);
+	content: counter(section) "." counter(subsection);
 }
 .profile__subsection__header{
 	margin: 12px 0;
