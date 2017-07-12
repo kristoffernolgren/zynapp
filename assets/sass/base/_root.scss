@@ -7,7 +7,11 @@ html {
 .body__about{
 	background: url(/assets/images/darkbg.png);
 	color: white;
+	path, polygon {
+		fill: white
+	}
 }
+
 .body__profile {
 	background: #E5E5E5;
 	counter-reset: section;
