@@ -4,7 +4,10 @@ html {
 	font-size: 22px;
 	background: url(/assets/images/bg.png);
 }
-
+.body__about_us {
+	background: url(/assets/images/darkbg.png);
+	color: white;
+}
 .body__profile {
 	background: #E5E5E5;
 	counter-reset: section;
