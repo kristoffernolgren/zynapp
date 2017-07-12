@@ -14,13 +14,14 @@ html {
 }
 .profile__section{
 	border-top: 1px solid black;
+	counter-reset: subsection;
+
 }
 .profile__section__header::before{
 	counter-increment: section;
-	content: counter(section);
+	content: counter(section) ".";
 }
 .profile__section__header{
-
 	margin-top: 12px;
 	font-size: 15px;
 	font-weight: normal;
@@ -35,7 +36,10 @@ html {
 	flex: 1;
 	margin-right: 12px;
 }
-
+.profile__subsection__header::before{
+	counter-increment: subsection;
+	content: counter(subsection);
+}
 .profile__subsection__header{
 	margin: 12px 0;
 	font-size: 9px;
