@@ -13,20 +13,23 @@ html {
 }
 .profile__section__header{
 	margin-top: 12px;
-	font-size: 12px;
+	font-size: 15px;
 	font-weight: normal;
 }
 
 .profile__subsection{
 	border-top: 1px solid black;
-
 }
 
 .profile__subsection__header{
-
 	margin-top: 12px;
-	font-size: 12px;
+	font-size: 9px;
 	font-weight: normal;
+}
+
+.profile__subsection__color{
+	background: #36314C;
+	color: white;
 }
 
 footer {
