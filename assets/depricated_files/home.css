@@ -6,8 +6,9 @@ nav{
 	padding:0 30px;
 	left: 50%;
     transform: translate(-50%);
-    z-index: 2;
+    z-index: 1000100;;
     position: fixed;
+    color: white;
 }
 
 nav .text{margin:0 18px;position:relative;bottom:30px;text-decoration:none;color:inherit;font-size:18px}
