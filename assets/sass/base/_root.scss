@@ -41,13 +41,14 @@ html {
 	content: counter(section, decimal-leading-zero) "." counter(subsection, decimal-leading-zero) " ";
 }
 .profile__subsection__header{
-	margin: 12px 0;
+	margin: 6px 0 12px;
 	font-size: 9px;
 	font-weight: normal;
 }
 
 .profile__subsection__color{
 	color: white;
+	text-transform: uppercase;
 	height: 200px;
 	padding: 12px;
 }
