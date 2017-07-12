@@ -7,6 +7,7 @@ html {
 
 .body__profile {
 	background: #E5E5E5
+	counter-reset: section;
 }
 .body__profile main {
     max-width: initial;
@@ -14,7 +15,12 @@ html {
 .profile__section{
 	border-top: 1px solid black;
 }
+.profile__section__header::before{
+	counter-increment: section;
+	content: counter(section);
+}
 .profile__section__header{
+
 	margin-top: 12px;
 	font-size: 15px;
 	font-weight: normal;
