@@ -339,7 +339,7 @@
 			$('#innerShape323').click(() => {
 			  console.log($('#Field327').val())
 			  $.post('//zynapp.us14.list-manage.com/subscribe/post?u=fd654a9284c208a0bf70e685d&amp;id=a12642cf2c', {EMAIL: $('#Field327').val(), b_fd654a9284c208a0bf70e685d_a12642cf2c: ''})
-			  .done(function (data) {
+			  .always(function (data) {
 			    console.log(data)
 			  })
 			})
