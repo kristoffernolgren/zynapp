@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<h2>Careers</h2>
+<p>Join us in our mission to revolutionize the way people find, view and organize their digital information. We strongly believe that diversity of experience, perspectives and background will lead to a better workplace for our employees and a better product for our users.</p>
+<h2 class="listHeader">NOW HIRING</h2>
+<ul class="jobs">
+  {% for job in site.jobs %}
+    <li>
+      <!--img src="{{ member.profile_photo_path }}" alt="{{ member.name }}"-->
+      <a href="{{ job.offsite | default: job.url }}">
+        {{ job.name }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
