@@ -50,18 +50,19 @@ html {
 }
 
 
-.profile__subsection.black{
-    background: black;
-    color: white;
+.profile__subsection.shape{
+    background: transparent;
 }
 .profile__subsection__header::before{
 	counter-increment: subsection;
 	content: counter(section, decimal-leading-zero) "." counter(subsection, decimal-leading-zero) " ";
 }
 .profile__subsection__header{
-	margin: 6px 0 12px;
+	margin: 6px 0 6px;
 	font-size: 9px;
 	font-weight: normal;
+	background: white;
+	border-bottom: 1px solid black;
 }
 
 .profile__subsection__color{
