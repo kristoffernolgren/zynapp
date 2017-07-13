@@ -48,6 +48,12 @@ html {
 	margin: 0 12px 20px 0;
     background: white;
 }
+
+
+.profile__subsection.black{
+    background: black;
+    color: white;
+}
 .profile__subsection__header::before{
 	counter-increment: subsection;
 	content: counter(section, decimal-leading-zero) "." counter(subsection, decimal-leading-zero) " ";
