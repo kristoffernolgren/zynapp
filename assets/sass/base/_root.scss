@@ -1,7 +1,7 @@
 html {
 	box-sizing: border-box;
 	font-family: CircularStd;
-	font-size: 22px;
+	font-size: 16px;
 	background-image: url(/assets/images/bg.svg);
 	background-position: 0 10px;
 }
@@ -72,6 +72,17 @@ html {
 	height: 200px;
 	padding: 12px;
 	margin: 0;
+}
+
+.profile__subsection__color__description{
+	padding-bottom: 1em;
+	display: block;
+}
+
+.profile__subsection__color__description__title{
+	display: block;
+	font-size: 22px;
+	font-weight: bold;
 }
 
 .profile__subsection__vector{
