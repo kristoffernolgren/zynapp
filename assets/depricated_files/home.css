@@ -6250,9 +6250,10 @@ nav {
     left: 50%;
     transform: translate(-50%);
     z-index: 1000100;
-    ;
     position: fixed;
     color: white;
+    box-sizing: border-box;
+
 }
 nav .text {
     margin: 0 18px;
