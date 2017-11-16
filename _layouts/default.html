@@ -1,37 +1,14 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: page.lang | default: 'en' }}" class="body__{{page.title}}">
+<html lang="{{ site.lang | default: page.lang | default: 'en' }}" class="body__{{page.title | slugify}}">
 
   {% include head.html %}
 
 	<body>
-	{% include nav.html %}
-	<main class="main" aria-label="Content">{{ content }}</main>
-	<footer>
-		<div class="wrapper">
-			<div class="footerLogo">
-				<a href="http://zynapp.com/">{% include /vectors/logo_footer.svg %}</a>
-
-			</div>
-			<div class="adress">
-				<p>Zynapp AB<br />
-				Drottninggatan 32<br />
-				652 25 Karlstad<br />
-				Sweden</p>
-			</div>
-			<div class="inquiries">
-				<p class="label">For general company inquiries</p>
-				<a href="mailto:info@zynapp.com">info@zynapp.com</a>
-			</div>
-			<div>
-				<p class="label">For jobs</p>
-				<a href="mailto:jobs@zynapp.com">jobs@zynapp.com</a>
-			</div>
-			<div>
-				<p class="label">For support</p>
-				<a href="mailto:info@zynapp.com">support@zynapp.com</a>
-			</div>
-		</div>
-	</footer>
+	<section class="body__content">
+		{% include nav.html %}
+		<main class="main" aria-label="Content">{{ content }}</main>
+	</section>
+	{% include footer.html %}
 	</body>
 
 </html>

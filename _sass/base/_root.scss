@@ -16,6 +16,45 @@ html {
 	}
 }
 
+
+
+.body__early-access{
+	color: white;
+	nav {
+		padding-top: 42px;
+		margin-bottom: 0;
+	}
+	.body__content{
+	    padding: 0 0 95px;
+		background: linear-gradient(to bottom left, #7BB83D 0%, #7BB83D 50%, #53BAB5 50%, #53BAB5 100%);
+	}
+	path, polygon {
+		fill: white
+	}
+}
+.main__form{
+	background: url(/assets/images/iphone.png) center center no-repeat;
+	background-size: contain;
+	&:after{
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+
+.main__form__info{
+	float: left;
+	width: 260px
+}
+
+.main__form__input{
+	width: 260px;
+	float: right;
+}
+.body__content{
+	padding-bottom: 60px;
+}
 .body__profile {
 	background: #E5E5E5;
 	counter-reset: section;
@@ -100,7 +139,6 @@ footer {
   font-size: 18px;
   height: 360px;
   padding: 130px 0 60px;
-  margin-top: 60px;
 }
 footer .wrapper {
   max-width: 1000px;
@@ -120,12 +158,16 @@ footer .wrapper div {
   width: 180px;
   padding-top: 20px;
 }
-footer .wrapper .footerLogo {
+.footerLogo {
   width: 210px;
 }
-footer .wrapper .footerLogo a {
+.footerLogo__image {
   float: left;
   width: 160px;
+}
+.footerLogo__text {
+  font-size: 14px;
+  margin-left: 45px;
 }
 footer .wrapper .inquiries {
   width: 214px;
@@ -142,7 +184,9 @@ main, nav{
 
 nav {
 	width: 356px;
-	margin: 14px auto 63px;
+	margin: 0 auto 63px;
+	padding-top: 14px;
+	text-align: center;
 	.text {
 		margin: 0 18px;
 		position: relative;
