@@ -49,6 +49,9 @@ html {
 }
 .main__form{
 	background: url(/assets/images/iphone.png) center center no-repeat;
+	&.android{
+		background: url(/assets/images/android.png) center center no-repeat;
+	}
 	background-size: contain;
 	min-height: 664px;
 	position: relative;
