@@ -20,12 +20,24 @@ html {
 
 .body__early-access{
 	color: white;
+	.dropdown{
+		overflow: hidden;
+		div{
+			height: 0;
+		}
+		.old {
+			display: none;
+		}
+	}
 	nav {
 		padding-top: 42px;
 		margin-bottom: 0;
+		.logo svg {
+		    width: 103px;
+		    height: 76px;
+		}
 	}
 	.body__content{
-	    padding: 0 0 95px;
 		background: linear-gradient(to bottom left, #7BB83D 0%, #7BB83D 50%, #53BAB5 50%, #53BAB5 100%);
 	}
 	path, polygon {
@@ -35,6 +47,9 @@ html {
 .main__form{
 	background: url(/assets/images/iphone.png) center center no-repeat;
 	background-size: contain;
+	height: 664px;
+	position: relative;
+    top: -62px;
 	&:after{
 		content: "";
 		display: table;
@@ -45,12 +60,76 @@ html {
 
 .main__form__info{
 	float: left;
-	width: 260px
+	width: 339px;
+	position: relative;
+	top: 98px;
+	h1 {
+		font-size: 24px;
+	    margin-bottom: 48px;
+	}
+	p{
+		font-size: 20px;
+    	line-height: 1.25em;
+	}
 }
 
 .main__form__input{
-	width: 260px;
-	float: right;
+    width: 316px;
+    float: right;
+    position: relative;
+    top: 55px;
+    margin-right: 15px;
+	h1 {
+		font-size: 21px;
+		margin-bottom: 17px;
+	}
+	p{
+		font-size: 20px;
+	}
+	label{
+		display: block;
+   		margin-bottom: 7px;
+	}
+	input{
+		font-size: 21px;
+		width: 100%;
+		border: none;
+		border-radius: 5px;
+		padding: 10px 11px;
+    	margin-bottom: 20px
+	}
+	.dropdown{
+	    position: absolute;
+  		width: 100%;
+  		ul {
+  			background: #D53668;
+  		}
+	}
+	.selected {
+	    background: #D53668 url(/assets/images/caret.svg) center right 16px no-repeat;;
+	    display: block;
+	    padding: 12px;
+	    border-radius: 5px;
+	}
+	.hack{
+	    margin-top: 58px;
+	}
+	textarea {
+		width: 100%;
+		height: 126px;
+		border: 0;
+		border-radius: 5px;
+		margin-top: 6px;
+	    margin-bottom: 9px;
+	}
+	button {
+	    background: #D53668;
+	    border: 0;
+	    border-radius: 5px;
+	    color: white;
+	    float: right;
+	    padding: 9px 29px;
+	}
 }
 .body__content{
 	padding-bottom: 60px;
@@ -177,7 +256,7 @@ footer .wrapper .adress {
 }
 
 main, nav{
-	max-width: 890px;
+    max-width: 1156px;
 	margin: 0 auto;
 	padding: 0 30px;
 }
