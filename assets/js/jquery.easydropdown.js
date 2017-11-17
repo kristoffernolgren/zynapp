@@ -19,7 +19,7 @@
 		this.cutOff = false,
 		this.hasLabel = false,
 		this.keyboardMode = false,
-		this.nativeTouch = true,
+		this.nativeTouch = false,
 		this.wrapperClass = 'dropdown',
 		this.onChange = null;
 	};
