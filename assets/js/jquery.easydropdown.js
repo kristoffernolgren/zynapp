@@ -108,7 +108,7 @@
 
 			self.maxHeight = 0;
 
-			for(i = 0; i < self.$items.length; i++){
+			for(i = 0; i < self.$items.length - 1; i++){
 				var $item = self.$items.eq(i);
 				self.maxHeight += $item.outerHeight();
 				if(self.cutOff == i+1){

@@ -150,6 +150,7 @@ html {
 		    padding:0;
   			background: white;
   			border-radius: 4px;
+  			display: none;
   			li{
 	  			list-style: none;
 	  			color: black;
@@ -165,6 +166,9 @@ html {
 		        	border-bottom: 0;
 		        }
 	  		}
+  		}
+  		&.open ul{
+  			display: 	block;
   		}
 	}
 	.selected {
