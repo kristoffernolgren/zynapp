@@ -154,11 +154,12 @@ html {
 	  			list-style: none;
 	  			color: black;
 			    padding: 12px;
-				border-bottom: 1px solid;
-				border-image: linear-gradient(to right, transparent 12px, #D53668 12px, #D53668 calc(100% - 12px), transparent 50%);
-				border-image-slice: 1;
 				&:first-child{
 					display: none;
+					border-bottom: 1px solid;
+					border-image: linear-gradient(to right, transparent 12px, #D53668 12px, #D53668 calc(100% - 12px), transparent 50%);
+					border-image-slice: 1;
+					border-image-width: 1px;
 				}
 		        &:last-child {
 		        	border-bottom: 0;
