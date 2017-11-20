@@ -38,7 +38,7 @@ nav: light
 			$('.button').addClass("submitted")
 			$.ajax({
 				url: "https://script.googleusercontent.com/macros/echo?user_content_key=Mwh7X-HsPI9Vkl0ghEHrntOXoOJTPV4oGeC4EXsfq7kkx3MDnxeMrEsD8hHhbc9GbwfzZyuFROiHGhhJOS5Nnv61IyZ_Gzt1m5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnMIXBV_K5-NWAoX5mx_EqTvAzlhXiApT06_viGXyJkkH6LFNNmyJM0qxRkDOmJdXqzOmbnRGq-tk&lib=MQxTJ0SYwfXdtsvsiapacY333-3kBXtAK",
-				type: "post",
+				type: "get",
 				data: $( this ).serialize(),
 				success: function() {
 					console.log('done')
