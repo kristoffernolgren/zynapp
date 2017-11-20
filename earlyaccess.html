@@ -7,16 +7,19 @@ nav: light
 	<form class="main__form__input">
 		<h1>Request early access to Zynapp</h1>
 		<label for="email">Enter your email</label>
-		<input class="email" />
-		<select class="operatingsystem">
+		<input name="email" class="email" />
+		<select name="operatingsystem" class="operatingsystem">
 			<option value="">Select phone</option>
 			<option value="iphone">iPhone</option>
 			<option value="android">Android</option>
 		</select>
 		<label class="hack" for="reason">We are looking for a diverse range of people to try out the app. Please let us know why you believe you should get early access.</label>
-		<textarea class="reason"></textarea>
+		<textarea name="reason" class="reason"></textarea>
 		<button class="button">Send</button>
 	</form>
+	<div class="main__form__response">
+		<h1>Thank you for your request, we will be in touch.</h1>
+	</div>
 	<div class="main__form__info">
 		<h1>We believe in a society where the power of data belongs to the people.</h1>
 		<p>Our digital life is all over the place. On your camera, your phone, tablet, computer, memory cards, cloud services. And in a million apps. What if it was always at your fingertips? We put you back in control of your digital life, by letting you find, view and organize your digital content in a smarter and more visual way.</p>
@@ -37,10 +40,11 @@ nav: light
 			e.preventDefault();
 			$('.button').addClass("submitted")
 			$.ajax({
-				url: "https://script.googleusercontent.com/macros/echo?user_content_key=Mwh7X-HsPI9Vkl0ghEHrntOXoOJTPV4oGeC4EXsfq7kkx3MDnxeMrEsD8hHhbc9GbwfzZyuFROiHGhhJOS5Nnv61IyZ_Gzt1m5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnMIXBV_K5-NWAoX5mx_EqTvAzlhXiApT06_viGXyJkkH6LFNNmyJM0qxRkDOmJdXqzOmbnRGq-tk&lib=MQxTJ0SYwfXdtsvsiapacY333-3kBXtAK",
-				type: "get",
-				data: $( this ).serialize(),
+				url: "https://script.google.com/macros/s/AKfycbzMQRojHmDLQkrYaCoq9pdAM1j4dYH1xftNpoiliQdwvMcu724/exec",
+				type: "post",
+				data: $('.main__form__input').serialize(),
 				success: function() {
+					$('.main__form').addClass('posted')
 					console.log('done')
 				}
 			});
