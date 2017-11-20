@@ -25,8 +25,12 @@ html {
 	color: white;
 	.dropdown{
 		overflow: hidden;
+		&.open{
+			overflow: inherit;
+		}
 		div{
 			height: 0;
+			box-shadow: 0px 4px 5px rgba(0,0,0,0.4);
 		}
 		.old {
 			display: none;
@@ -63,6 +67,9 @@ html {
 	}
 	@media screen and (max-width: $break-large) {
 		background: none;
+		&.android{
+			background: none;
+		}
 	}
 }
 
@@ -128,12 +135,26 @@ html {
 	.dropdown{
 	    position: absolute;
   		width: 100%;
-  		div {
-  			overflow: hidden;
-  		}
   		ul {
   			margin-top: 0;
-  			background: #D53668;
+		    text-transform: uppercase;
+		    padding:0;
+  			background: white;
+  			border-radius: 4px;
+  			li{
+	  			list-style: none;
+	  			color: black;
+			    padding: 12px;
+				border-bottom: 1px solid;
+				border-image: linear-gradient(to right, transparent 12px, #D53668 12px, #D53668 calc(100% - 12px), transparent 50%);
+				border-image-slice: 1;
+				&:first-child{
+					display: none;
+				}
+		        &:last-child {
+		        	border-bottom: 0;
+		        }
+	  		}
   		}
 	}
 	.selected {
@@ -247,8 +268,9 @@ footer {
   background: #36314B;
   color: white;
   font-size: 18px;
-  height: 360px;
-  padding: 130px 0 60px;
+  height: 300px;
+  padding: 80px 0 60px;
+  line-height: 1.7em;
 }
 footer .wrapper {
   max-width: 1000px;
@@ -274,6 +296,7 @@ footer .wrapper div {
 .footerLogo__image {
   float: left;
   width: 160px;
+  line-height: 0;
 }
 .footerLogo__text {
   font-size: 14px;
