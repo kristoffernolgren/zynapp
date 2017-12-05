@@ -189,10 +189,6 @@
     border-bottom-width: 0;
     border-color: #000;
     border-style: solid;
-    background-repeat: no-repeat;
-    background-color: #000;
-    background-image: url('/assets/depricated_files/76066E6B-3D98-93DF-74D1-6CFAB2095A18.png');
-    background-size: 100% 100%;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
     -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
     -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
@@ -3357,7 +3353,6 @@
 }
 .innerImage373 {
     left: 824px;
-    top: -3px;
     width: 137px;
     height: 137px;
     border-left-width: 0;
@@ -3382,7 +3377,6 @@
     initialLeft: 824;
     initialTop: -17;
     left: 824px;
-    top: -3px;
     imageWidth: 137;
     imageHeight: 137;
     width: 137px;
