@@ -3,18 +3,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <meta name="og:image" content="https://zynapp.com/assets/images/share.jpg">
+  <meta property="og:image" content="https://zynapp.com/assets/images/share.jpg">
   <meta itemprop="image" content="https://zynapp.com/assets/images/share.jpg">
 
-  <meta name="og:url" content="{{site.url}}">
-  <meta name="og:type" content="website">
+  <meta property="og:url" content="{{site.url}}">
+  <meta property="og:type" content="website">
   <meta itemprop="name" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
 
   <meta name="og:site_name" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
-  <meta name="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-  <meta name="og:description" content="Get access to Zynapp before everyone else. With Zynapp you can view, find and organize your digital life. ">
+  <meta property="og:description" content="Get access to Zynapp before everyone else. With Zynapp you can view, find and organize your digital life. ">
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
