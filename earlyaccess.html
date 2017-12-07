@@ -8,7 +8,7 @@ excerpt: Get access to Zynapp before everyone else. With Zynapp you can find, vi
 	<form class="main__form__input">
 		<h1>Request early access to Zynapp</h1>
 		<label for="email">Enter your email</label>
-		<input name="email" class="email" />
+		<input required name="email" class="email" />
 		<select name="operatingsystem" class="operatingsystem">
 			<option value="">Select phone</option>
 			<option value="iphone">iPhone</option>
@@ -37,7 +37,7 @@ excerpt: Get access to Zynapp before everyone else. With Zynapp you can find, vi
 		})
 		$('.main__form__input').submit(function(e){
 			e.preventDefault();
-			$('.button').addClass("submitted")
+			$('.button').addClass("submitted").attr('disabled','disabled')
 			$.ajax({
 				url: "https://script.google.com/macros/s/AKfycbzMQRojHmDLQkrYaCoq9pdAM1j4dYH1xftNpoiliQdwvMcu724/exec",
 				type: "post",
