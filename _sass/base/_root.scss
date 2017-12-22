@@ -1,25 +1,22 @@
 $break-small: 640px;
 $break-large: 1091px;
+$max-width: 1156px;
+
+$zynapp-blue: #36314B;
+$secondary-font: rgba(54,79,46, .5);
+$action-view-passive: rgba(54,79,46, .1);
+
 
 html {
 	box-sizing: border-box;
-	font-family: CircularStd;
-	font-size: 16px;
-	background-image: url(/assets/images/bg.svg);
+	font-family: ProximaNova;
+	font-size: 20px;
+	line-height: 1.25;
+//	background-image: url(/assets/images/bg.svg);
 	background-position: 0 10px;
-}
-.body__about{
-	background-color: #36314C;
-	color: white;
-	path, polygon {
-		fill: white
-	}
-	footer{
-		background: #212121;
-	}
-}
+	color: $zynapp-blue;
 
-
+}
 
 .body__join-the-family{
 	color: white;
@@ -38,10 +35,6 @@ html {
 	nav {
 		padding-top: 42px;
 		margin-bottom: 0;
-		.logo svg {
-		    width: 103px;
-		    height: 76px;
-		}
 	}
 	.body__content{
 		background: linear-gradient(to bottom left, #7BB83D 0%, #7BB83D 50%, #53BAB5 50%, #53BAB5 100%);
@@ -87,12 +80,9 @@ html {
 	position: relative;
 	top: 98px;
 	h1 {
+		color: white;
 		font-size: 24px;
 	    margin-bottom: 48px;
-	}
-	p{
-		font-size: 20px;
-    	line-height: 1.25em;
 	}
 	@media screen and (max-width: $break-large) {
 		width: 45%;
@@ -123,6 +113,7 @@ html {
 		width: 100%;
 	}
 	h1 {
+		color: white;
 		font-size: 21px;
 		margin-bottom: 17px;
 		margin-top: 0;
@@ -210,6 +201,7 @@ html {
 .body__profile {
 	background: #E5E5E5;
 	counter-reset: section;
+	font-family: arial;
 }
 .body__profile main {
     max-width: initial;
@@ -217,7 +209,6 @@ html {
 .profile__section{
 	border-top: 1px solid black;
 	counter-reset: subsection;
-
 }
 .profile__section__header::before{
 	counter-increment: section;
@@ -226,6 +217,7 @@ html {
 .profile__section__header{
 	margin-top: 12px;
 	font-size: 15px;
+	color: black;
 	font-weight: normal;
 }
 .container__profile__subsection{
@@ -249,6 +241,8 @@ html {
 	content: counter(section, decimal-leading-zero) "." counter(subsection, decimal-leading-zero) " ";
 }
 .profile__subsection__header{
+	color: black;
+	font-weight: bold;
 	padding: 6px 0;
 	margin: 0;
 	font-size: 9px;
@@ -261,6 +255,11 @@ html {
 	color: white;
 	text-transform: uppercase;
 	height: 200px;
+	padding: 12px;
+	margin: 0;
+}
+
+.profile__subsection__text{
 	padding: 12px;
 	margin: 0;
 }
@@ -286,90 +285,114 @@ html {
     margin: 10% 10% 0 10%;
 }
 footer {
-  background: #36314B;
+  background: $zynapp-blue;
   color: white;
   font-size: 18px;
-  height: 300px;
   padding: 80px 0 60px;
   line-height: 1.7em;
+  h2 {
+  	color: white;
+  }
 }
 footer .wrapper {
-  max-width: 1000px;
+  max-width: $max-width;
   padding: 0 20px;
   margin: 0 auto;
+    &:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 }
 footer .wrapper a {
   color: white;
-  text-decoration: none;
+  display: block;
+  &[href^="mailto"] {
+	text-decoration: none;
+  }
 }
+
 footer .wrapper .label {
   font-size: 14px;
   margin-bottom: 0;
 }
 footer .wrapper div {
   float: left;
-  width: 180px;
   padding-top: 20px;
-}
-.footerLogo {
-  width: 210px;
-}
-.footerLogo__image {
-  float: left;
-  width: 160px;
-  line-height: 0;
-}
-.footerLogo__text {
-  font-size: 14px;
-  margin-left: 45px;
+  margin: 0 50px;
 }
 footer .wrapper .inquiries {
-  width: 214px;
+  width: 168px;
 }
 footer .wrapper .adress {
-  width: 175px;
+  width: 148px;
 }
 
-main, nav{
-    max-width: 1156px;
-	margin: 0 auto;
+footer .wrapper .support {
+	width: 221px;
+}
+
+footer .wrapper .legal {
+	width: 173px;
+}
+
+
+main{
+    max-width: $max-width;
 	padding: 0 30px;
+	margin: 0 auto;
 }
 
 nav {
-	width: 360px;
-	margin: 0 auto 63px;
-	padding-top: 14px;
+	margin: 0 auto 85px;
+	padding-top: 5vw;
 	text-align: center;
+	max-width: 500px;
 	.text {
-		margin: 0 18px;
+		margin: 0 30px;
 		position: relative;
-		bottom: 30px;
+		bottom: 7vw;
 		text-decoration: none;
 		color: inherit;
-		font-size: 18px;
+		font-size: 4.2vw;
+
+
+	}
+	.logo svg {
+	    width: 24%;
+	}
+	@media screen and (min-width: 500px) {
+		padding-top: 32px;
+		.text{
+			font-size: 21px;
+			bottom: 35px
+		}
 	}
 }
 
 h1{
-	font-size: 30px;
+	font-size: 32px;
+	font-weight: normal;
+	color: $secondary-font;
 	margin: 100px 0 13px;
 }
 
 h2{
-	font-size: 24px;
+	color: $secondary-font;
+	font-size: 32px;
 	margin: 30px 0 5px;
+	font-weight: normal;
 }
 
 p{
 	margin: 0 0 20px;
+	font-weight: bold;
 }
 
 .listHeader {
-	font-size: 30px;
 	color: #52b9b4;
 	margin: 66px 0 0;
-	border-bottom: 3px solid black;
+	border-bottom: 1px solid black;
 	padding-bottom: 25px;
 	font-weight: normal;
 }
@@ -377,10 +400,10 @@ p{
 	padding-left: 0;
 	margin-top: 0;
 	li{
-		background: url(/assets/images/arrow.svg) no-repeat;
-		background-size: 17px;
-		background-position: 0 19px;
 		list-style: none;
+		&:hover{
+			background: $action-view-passive;
+		}
 	}
 }
 .jobs li a{
@@ -388,28 +411,25 @@ p{
 	text-decoration: none;
 	color: #d53668;
 	font-weight: bold;
-	font-size: 26px;
-	padding: 13px 0 13px 28px;
-	border-bottom: 3px solid black;
+	font-size: 32px;
+	padding: 13px 0 13px 0;
+	border-bottom: 1px solid black;
 }
 
 
 @font-face {
-	font-family:CircularStd;
-	src: url(/assets/fonts/CircularStd-Book.otf);
+	font-family:ProximaNova;
+	src: url(/assets/fonts/ProximaNova-light.otf);
 }
 @font-face {
-	font-family:CircularStd;
-	src: url(/assets/fonts/CircularStd-Black.otf);
+	font-family:ProximaNova;
+	src: url(/assets/fonts/ProximaNova-regular.otf);
 	font-weight: bold;
 }
 
 @media (max-width: 960px) {
 	footer{
 		height: auto;
-		.wrapper .footerLogo a{
-			float: none;
-		 }
 		.wrapper div{
 			float: none;
 		}
